@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+
+<PlayerTypes>
+
+	<PlayerType id="Blinde">
+		<Energy quantity="200"></Energy>
+		<Weapon dist="4" damage="20" munition="10"></Weapon>
+		<Mine quantity="10" visible="true"></Mine>
+		<Bombe quantity="5" visible="true"></Bombe>
+	</PlayerType>
+
+	<PlayerType id="Saboteur">
+		<Energy quantity="150"></Energy>
+		<Weapon dist="3" damage="30" munition="20"></Weapon>
+		<Mine quantity="15" visible="false"></Mine>
+		<Bombe quantity="10" visible="false"></Bombe>
+	</PlayerType>
+
+</PlayerTypes>
